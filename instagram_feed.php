@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
- 
-    <title>Display Instagram Posts On Website - LEVEL 1 - Live Demo</title>
- 
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
- 
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Display Instagram Posts On Website - LEVEL 1 - Live Demo</title>
+
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
 </head>
 <body>
- 
+
 <div class="container">
 <div class="row">
     <?php
@@ -35,32 +35,24 @@
      echo '<a href="'.$image_link.'"><img src="'.$image.'" /></a>';
 }
 ?>
- 
 </div>
-</div>
- 
+</div> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
- 
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->
- 
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script> 
 </body>
 </html>
 <style type="text/css">
-    .item_box{
-    height:500px;
+.item_box{
+height:500px;
 }
- 
+
 .photo-thumb{
-    width:100%;
-    height:auto;
-    float:left; 
-    border: thin solid #d1d1d1;
-    margin:0 1em .5em 0;
-    float:left; 
+width:100%;
+height:auto;
+float:left; 
+border: thin solid #d1d1d1;
+margin:0 1em .5em 0;
+float:left; 
 }
 </style>
 
